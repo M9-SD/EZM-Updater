@@ -1,5 +1,6 @@
 # EZM-Updater
 One-click installer for Enhanced Zeus Modules (an Arma 3 Zeus composition that gives game master access to 100's of new modules).
+
 EZM: https://github.com/expung3d/Enhanced-Zeus-Modules/
 
 How the EZM Updater works:
@@ -30,4 +31,5 @@ shell:common startup (Opens: %ProgramData%\\Microsoft\\Windows\\Start Menu\\Prog
 ---
 
 Alternatively, you can use Task Scheduler to periodically run the exe and update EZM.
+
 https://learn.microsoft.com/en-us/answers/questions/2845465/windows-10-task-scheduler-schedule-to-run-an-exe-f
