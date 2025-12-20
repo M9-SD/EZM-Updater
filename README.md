@@ -18,9 +18,13 @@ How to Access the Startup Folder
 
 Press Win + R: to open the Run dialog box. 
 Type one of the following commands: and press Enter or click OK: 
+
 For your user account: 
+
 shell:startup (Opens: %userprofile%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup)
+
 For all users: 
+
 shell:common startup (Opens: %ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\Startup)
 
 ---
