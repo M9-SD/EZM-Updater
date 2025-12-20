@@ -5,7 +5,7 @@ EZM: https://github.com/expung3d/Enhanced-Zeus-Modules/
 How the EZM Updater works:
 1. Downloads ezm sqf file from github to temp folder
 2. Builds new composition.sqe and header.sqe files
-3. Copies/overwrites EZM_Comp in arma 3 profile
+3. Creates/copies/overwrites EZM_Comp folder in arma 3 profile
 
 The exe essentially installs the composition for you. 
 It can then be accessed in Zeus > Custom Compositions > Enhanced Zeus Modules > EZM V...
