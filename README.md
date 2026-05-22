@@ -135,7 +135,7 @@ This folder represents the composition you place down. Arma 3 reads the .sqe fil
 
 ## Security & Transparency
 
-EZM-Updater is designed to be lightweight and transparent.
+EZM-Updater is designed to be lightweight, portable, and transparent.
 It is only active when the script is run by the user. The process only lasts until it is finished installing the composition.
 
 ### What the updater does
