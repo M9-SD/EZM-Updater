@@ -4,6 +4,8 @@
 
 Just [download](https://github.com/M9-SD/EZM-Updater/releases/download/V0.1/EZM_Updater.exe) and run the executable to install EZM!
 
+<img width="256" height="256" alt="EZM_Updater_Icon-6" src="https://github.com/user-attachments/assets/46066070-e406-48c6-87fb-ec31e50593d8" />
+
 ---
 
 ## Background
