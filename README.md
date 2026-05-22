@@ -1,6 +1,7 @@
 # EZM-Updater
 
 **One-click installer/updater for [Enhanced Zeus Modules (EZM)](https://github.com/expung3d/Enhanced-Zeus-Modules/)**
+
 Just [download](https://github.com/M9-SD/EZM-Updater/releases/download/V0.1/EZM_Updater.exe) and run the executable to install EZM!
 
 ---
