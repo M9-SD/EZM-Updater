@@ -156,13 +156,13 @@ It is only active when the script is run by the user. The process only lasts unt
 
 Some antivirus software may flag unsigned executables or small utilities as suspicious due to:
 - Low download reputation (uncommon file/low popularity)
-- Lack of code signing (sode signing and digital signature certificate costs range from $50 to $600+ per year)
+- Lack of code signing (code signing & digital signature certificate costs range from $50 to $600+ per year)
 - File system modification behavior (exactly what this tool does)
 
 AV Scan:
 https://www.virustotal.com/gui/file/34338ca336d22014cf1c14cf5d944278e65d3c216beabe05396dab26b48998bb
 
-You are encouraged to:
+If you have any concerns, you are encouraged to:
 - Review the source code yourself
 - Build the executable from source if desired
 - Verify all outbound requests point only to the EZM GitHub repository
@@ -215,7 +215,7 @@ Yes. The updater downloads the latest EZM data from GitHub during execution.
 
 ### Can I use this with multiple Arma 3 profiles?
 
-Yes, it acually installs EZM to all available A3 profiles by default because I didn't want the user to have to set directories manually.
+Yes, it acually installs EZM to all available A3 profiles by default to avoid the need for the user to configure directories manually.
 
 ---
 
