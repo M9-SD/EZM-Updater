@@ -175,7 +175,7 @@ If you have any concerns, you are encouraged to:
 ### Does this install a mod?
 
 No. EZM-Updater installs a Zeus composition into your Arma 3 profile. It does not install a traditional Arma 3 mod.
-Compositions are typically a collection of objects (prefabs) for Game Masters to use, but this one just has an invisible helipad with an init script inside which invokes EZM on your client. This is a standard way if running scripts in official public zeus servers. 
+Compositions are typically a collection of objects (prefabs) for Game Masters to use, but this one just has an invisible helipad with an init script inside which invokes EZM on your client. This is a standard way of running scripts in official public zeus servers. 
 
 ---
 
