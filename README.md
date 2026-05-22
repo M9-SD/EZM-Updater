@@ -1,8 +1,15 @@
 # EZM-Updater
 
-Since the official Enhanced Zeus Modules composition was removed from the Steam workshop, people have had to go through the hassle of copying the script from github and pasting it into their own local composition every time there is an update...
+**One-click installer/updater for [Enhanced Zeus Modules (EZM)](https://github.com/expung3d/Enhanced-Zeus-Modules/)**
+Just [download](https://github.com/M9-SD/EZM-Updater/releases/download/V0.1/EZM_Updater.exe) and run the executable to install EZM!
 
-With this one-click installer/updater for [Enhanced Zeus Modules (EZM)](https://github.com/expung3d/Enhanced-Zeus-Modules/), you will no longer need to manually create the composition in the Arma 3 editor.
+---
+
+## Background
+
+Since the official Enhanced Zeus Modules [composition](https://community.bistudio.com/wiki/Eden_Editor:_Custom_Composition) was removed from the Steam workshop, EZM users had to manually create the composition by copying the script from github and pasting it into Eden every time a new version came out...
+
+With this one-click installer/updater for [Enhanced Zeus Modules (EZM)](https://github.com/expung3d/Enhanced-Zeus-Modules/), you no longer need to manually create the composition in the Arma 3 editor.
 
 EZM-Updater automatically downloads the latest EZM script (SQF file) from the official github repository, builds the required composition structure, and installs it directly into your Arma 3 profile for immediate use in Zeus.
 
@@ -27,7 +34,7 @@ The updater performs the following steps:
    - `composition.sqe`
    - `header.sqe`
 3. Creates or updates the `EZM_Comp` folder inside your Arma 3 profile directory – no configuration required, profile folders are automatically detected
-4. Makes the composition immediately available in-game after rejoining session
+4. Makes the composition immediately available in-game (you may need to re-join the session)
 
 After installation, you can join a Zeus session and initialize EZM by placing down its custom composition: 
 
@@ -41,22 +48,24 @@ Zeus → Custom Compositions → Enhanced Zeus Modules → EZM V...
 
 - Windows 10/11
 - Arma 3
-- Internet connection (required for updates)
-- Server must have compositionScriptLevel parameter set to 2
+- Internet connection (required for downloading EZM)
+- Server must have [compositionScriptLevel parameter set to 2](https://community.bistudio.com/wiki/Description.ext#zeusCompositionScriptLevel) — half the official Zeus servers (even numbered) already have this enabled
 
 ---
 
+Note: Before running this tool, it is recommended to make a backup of your profile folder.
+
 ## Typical Installation Instructions
 
-1. Download the latest release of `EZM-Updater.exe` 
+1. Download the latest [release](https://github.com/M9-SD/EZM-Updater/releases) of `EZM-Updater.exe` 
 2. Run the executable
 3. Launch Arma 3
-4. Join a server as Zeus, navigate to the compositions tab, place down EZM comp, and you're ready to use the modules.
+4. Join a server as Zeus, navigate to the compositions tab, place down EZM comp, and you're ready to use the modules
 
-## Pyhon User Installation Instructions
+## Python User Installation Instructions
 
-If you already have Python on your system, there is no need to use the application executable - it's merely a concenient way to package the script and make it accesible for everyone. 
-Once you have dependecies (package imports), you may simply call the python script by itself, or build it into your own executable. 
+If you already have Python on your system, it is not necessary to use the application executable — it is merely a convenient way to distribute the tool and make it accesible for everyone. 
+If you have the required python dependencies (package imports), you may simply call the python script by itself — or — alternatively, you can build your own exe from the source code using pyInstaller via the included [batch script](https://github.com/M9-SD/EZM-Updater/blob/main/make_exe.bat): `make_exe.bat`.
 
 ---
 
@@ -145,12 +154,12 @@ It is only active when the script is run by the user. The process only lasts unt
 ### Antivirus Warnings
 
 Some antivirus software may flag unsigned executables or small utilities as suspicious due to:
-- Low download reputation
-- Lack of code signing (costs $)
-- File system modification behavior
+- Low download reputation (uncommon file/low popularity)
+- Lack of code signing (sode signing and digital signature certificate costs range from $50 to $600+ per year)
+- File system modification behavior (exactly what this tool does)
 
-Here are some antivirus scan results incase you are worried:
-
+AV Scan:
+https://www.virustotal.com/gui/file/34338ca336d22014cf1c14cf5d944278e65d3c216beabe05396dab26b48998bb
 
 You are encouraged to:
 - Review the source code yourself
@@ -165,7 +174,7 @@ You are encouraged to:
 ### Does this install a mod?
 
 No. EZM-Updater installs a Zeus composition into your Arma 3 profile. It does not install a traditional Arma 3 mod.
-Compositions are typically a collection of objects (prefabs) for Game Masters to use, but this one just has an invisible helipad with an init script inside which invokes EZM on your client. This is a standard way if running scripts in pub zeus. 
+Compositions are typically a collection of objects (prefabs) for Game Masters to use, but this one just has an invisible helipad with an init script inside which invokes EZM on your client. This is a standard way if running scripts in official public zeus servers. 
 
 ---
 
@@ -192,8 +201,8 @@ Yes. Simply:
 
 ### Does the updater require administrator privileges?
 
-Typically no. Standard user permissions are sufficient unless your Arma 3 profile is stored in a protected location.
-Although, some windows users might have the documents folder configured to request or grant permissions first.
+Typically, no. Standard user permissions are sufficient unless your Arma 3 profile is stored in a protected location.
+Although, some Windows users might have the documents folder configured to request or grant permissions first.
 
 ---
 
