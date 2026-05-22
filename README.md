@@ -157,7 +157,7 @@ It is only active when the script is run by the user. The process only lasts unt
 Some antivirus software may flag unsigned executables or small utilities as suspicious due to:
 - Low download reputation (uncommon file/low popularity)
 - Lack of code signing (code signing & digital signature certificate costs range from $50 to $600+ per year)
-- File system modification behavior (exactly what this tool does)
+- File modification behavior (exactly what this tool does)
 
 AV Scan:
 https://www.virustotal.com/gui/file/34338ca336d22014cf1c14cf5d944278e65d3c216beabe05396dab26b48998bb
