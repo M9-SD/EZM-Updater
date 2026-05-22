@@ -215,7 +215,7 @@ Yes. The updater downloads the latest EZM data from GitHub during execution.
 
 ### Can I use this with multiple Arma 3 profiles?
 
-Yes, it acually installs EZM to all available A3 profiles by default to avoid the need for the user to configure directories manually.
+Yes, it actually installs EZM to all available A3 profiles by default to avoid the need for the user to configure directories manually.
 
 ---
 
